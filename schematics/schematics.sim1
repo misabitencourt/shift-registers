@@ -1,0 +1,221 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="74HC165-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-888,-476" rotation="0" hflip="1" vflip="1" label="74HC165-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Subcircuit" CircId="Mega-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-716,-596" rotation="0" hflip="1" vflip="1" label="Mega-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="2_mega2560-63" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="2_mega2560-63" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../../Arduino/tmp/sketch_mar11a/build/arduino.avr.mega/sketch_mar11a.ino.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-1088,-540" rotation="-90" hflip="1" vflip="-1" label="Fixed Voltage-3" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Switch" CircId="Switch-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-468" rotation="0" hflip="1" vflip="1" label="Switch-16" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-1012,-432" rotation="0" hflip="1" vflip="1" label="Switch-18" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-392" rotation="0" hflip="1" vflip="1" label="Switch-20" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-21" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-348" rotation="0" hflip="1" vflip="1" label="Switch-21" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-312" rotation="0" hflip="1" vflip="1" label="Switch-22" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-23" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-272" rotation="0" hflip="1" vflip="1" label="Switch-23" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-228" rotation="0" hflip="1" vflip="1" label="Switch-24" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-176" rotation="0" hflip="1" vflip="1" label="Switch-62" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Ground" CircId="Ground-110" mainComp="false" Show_id="false" Show_Val="false" Pos="-20,-404" rotation="0" hflip="1" vflip="1" label="Ground-110" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Led" CircId="Led-152" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-692" rotation="0" hflip="1" vflip="1" label="Led-152" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-153" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-660" rotation="0" hflip="1" vflip="1" label="Led-153" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-154" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-620" rotation="0" hflip="1" vflip="1" label="Led-154" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-155" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-580" rotation="0" hflip="1" vflip="1" label="Led-155" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-156" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-540" rotation="0" hflip="1" vflip="1" label="Led-156" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-157" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-504" rotation="0" hflip="1" vflip="1" label="Led-157" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-158" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-464" rotation="0" hflip="1" vflip="1" label="Led-158" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-159" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,-428" rotation="0" hflip="1" vflip="1" label="Led-159" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Subcircuit" CircId="74HC595-345" mainComp="false" Show_id="true" Show_Val="false" Pos="-408,-652" rotation="0" hflip="1" vflip="1" label="74HC595-345" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Rail" CircId="Rail-358" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-472,-788" rotation="0" hflip="1" vflip="1" label="Rail-358" idLabPos="-16,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="Ground" CircId="Ground-359" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,-728" rotation="0" hflip="1" vflip="1" label="Ground-359" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-362" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-216,-692" rotation="0" hflip="1" vflip="1" label="Resistor-362" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-363" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-216,-660" rotation="0" hflip="1" vflip="1" label="Resistor-363" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-364" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-212,-620" rotation="0" hflip="1" vflip="1" label="Resistor-364" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-365" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-216,-580" rotation="0" hflip="1" vflip="1" label="Resistor-365" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-366" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-212,-540" rotation="0" hflip="1" vflip="1" label="Resistor-366" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-367" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-212,-504" rotation="0" hflip="1" vflip="1" label="Resistor-367" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-368" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-208,-464" rotation="0" hflip="1" vflip="1" label="Resistor-368" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-369" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-208,-428" rotation="0" hflip="1" vflip="1" label="Resistor-369" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="-1088,-272" />
+
+<item itemtype="Node" CircId="Node-38" mainComp="false" Pos="-1088,-312" />
+
+<item itemtype="Node" CircId="Node-41" mainComp="false" Pos="-1088,-348" />
+
+<item itemtype="Node" CircId="Node-44" mainComp="false" Pos="-1088,-396" />
+
+<item itemtype="Node" CircId="Node-47" mainComp="false" Pos="-1088,-428" />
+
+<item itemtype="Node" CircId="Node-65" mainComp="false" Pos="-1088,-228" />
+
+<item itemtype="Node" CircId="Node-67" mainComp="false" Pos="-1088,-468" />
+
+<item itemtype="Node" CircId="Node-162" mainComp="false" Pos="-20,-428" />
+
+<item itemtype="Node" CircId="Node-165" mainComp="false" Pos="-20,-456" />
+
+<item itemtype="Node" CircId="Node-168" mainComp="false" Pos="-20,-496" />
+
+<item itemtype="Node" CircId="Node-171" mainComp="false" Pos="-20,-532" />
+
+<item itemtype="Node" CircId="Node-174" mainComp="false" Pos="-20,-580" />
+
+<item itemtype="Node" CircId="Node-177" mainComp="false" Pos="-20,-620" />
+
+<item itemtype="Node" CircId="Node-180" mainComp="false" Pos="-20,-660" />
+
+<item itemtype="Connector" uid="connector-235" startpinid="74HC165-1-D0" endpinid="Switch-16-switch0pinN" pointList="-896,-468,-992,-468" />
+
+<item itemtype="Connector" uid="connector-236" startpinid="Switch-18-switch0pinN" endpinid="74HC165-1-D1" pointList="-996,-432,-980,-432,-980,-460,-896,-460" />
+
+<item itemtype="Connector" uid="connector-237" startpinid="74HC165-1-D2" endpinid="Switch-20-switch0pinN" pointList="-896,-452,-976,-452,-976,-392,-992,-392" />
+
+<item itemtype="Connector" uid="connector-238" startpinid="74HC165-1-D3" endpinid="Switch-21-switch0pinN" pointList="-896,-444,-972,-444,-972,-348,-992,-348" />
+
+<item itemtype="Connector" uid="connector-239" startpinid="74HC165-1-D4" endpinid="Switch-22-switch0pinN" pointList="-896,-436,-968,-436,-968,-312,-992,-312" />
+
+<item itemtype="Connector" uid="connector-240" startpinid="74HC165-1-D5" endpinid="Switch-23-switch0pinN" pointList="-896,-428,-956,-428,-956,-272,-992,-272" />
+
+<item itemtype="Connector" uid="connector-241" startpinid="74HC165-1-D6" endpinid="Switch-24-switch0pinN" pointList="-896,-420,-944,-420,-944,-228,-992,-228" />
+
+<item itemtype="Connector" uid="connector-242" startpinid="Node-35-2" endpinid="Node-65-0" pointList="-1088,-272,-1088,-228" />
+
+<item itemtype="Connector" uid="connector-243" startpinid="Node-35-1" endpinid="Switch-23-pinP0" pointList="-1088,-272,-1024,-272" />
+
+<item itemtype="Connector" uid="connector-244" startpinid="Node-38-2" endpinid="Node-35-0" pointList="-1088,-312,-1088,-272" />
+
+<item itemtype="Connector" uid="connector-245" startpinid="Node-38-1" endpinid="Switch-22-pinP0" pointList="-1088,-312,-1024,-312" />
+
+<item itemtype="Connector" uid="connector-246" startpinid="Node-41-2" endpinid="Node-38-0" pointList="-1088,-348,-1088,-312" />
+
+<item itemtype="Connector" uid="connector-247" startpinid="Node-41-1" endpinid="Switch-21-pinP0" pointList="-1088,-348,-1024,-348" />
+
+<item itemtype="Connector" uid="connector-248" startpinid="Node-44-2" endpinid="Node-41-0" pointList="-1088,-396,-1088,-348" />
+
+<item itemtype="Connector" uid="connector-249" startpinid="Node-44-1" endpinid="Switch-20-pinP0" pointList="-1088,-396,-1024,-396,-1024,-392" />
+
+<item itemtype="Connector" uid="connector-250" startpinid="Node-47-2" endpinid="Node-44-0" pointList="-1088,-428,-1088,-396" />
+
+<item itemtype="Connector" uid="connector-251" startpinid="Node-47-1" endpinid="Switch-18-pinP0" pointList="-1088,-428,-1028,-428,-1028,-432" />
+
+<item itemtype="Connector" uid="connector-252" startpinid="74HC165-1-D7" endpinid="Switch-62-switch0pinN" pointList="-896,-412,-932,-412,-932,-176,-992,-176" />
+
+<item itemtype="Connector" uid="connector-253" startpinid="Node-65-2" endpinid="Switch-24-pinP0" pointList="-1088,-228,-1024,-228" />
+
+<item itemtype="Connector" uid="connector-254" startpinid="Switch-16-pinP0" endpinid="Node-67-0" pointList="-1024,-468,-1088,-468" />
+
+<item itemtype="Connector" uid="connector-255" startpinid="Node-67-2" endpinid="Node-47-0" pointList="-1088,-468,-1088,-428" />
+
+<item itemtype="Connector" uid="connector-256" startpinid="Switch-62-pinP0" endpinid="Node-65-1" pointList="-1024,-176,-1088,-176,-1088,-228" />
+
+<item itemtype="Connector" uid="connector-257" startpinid="74HC165-1-PL" endpinid="Mega-2-7" pointList="-880,-380,-880,-368,-720,-368,-720,-420,-708,-420" />
+
+<item itemtype="Connector" uid="connector-258" startpinid="74HC165-1-CP" endpinid="Mega-2-6" pointList="-872,-380,-872,-400,-728,-400,-728,-428,-708,-428" />
+
+<item itemtype="Connector" uid="connector-259" startpinid="74HC165-1-CE" endpinid="Mega-2-5" pointList="-864,-380,-740,-380,-740,-436,-708,-436" />
+
+<item itemtype="Connector" uid="connector-260" startpinid="74HC165-1-Q7" endpinid="Mega-2-4" pointList="-848,-452,-848,-444,-708,-444" />
+
+<item itemtype="Connector" uid="connector-261" startpinid="Fixed Voltage-3-outnod" endpinid="Node-67-1" pointList="-1088,-524,-1088,-468" />
+
+<item itemtype="Connector" uid="connector-262" startpinid="Led-159-rPin" endpinid="Node-162-0" pointList="-136,-428,-20,-428" />
+
+<item itemtype="Connector" uid="connector-263" startpinid="Led-158-rPin" endpinid="Node-165-0" pointList="-132,-464,-20,-464,-20,-456" />
+
+<item itemtype="Connector" uid="connector-264" startpinid="Node-162-2" endpinid="Ground-110-Gnd" pointList="-20,-428,-20,-420" />
+
+<item itemtype="Connector" uid="connector-265" startpinid="Led-157-rPin" endpinid="Node-168-0" pointList="-132,-504,-20,-504,-20,-496" />
+
+<item itemtype="Connector" uid="connector-266" startpinid="Node-165-2" endpinid="Node-162-1" pointList="-20,-456,-20,-428" />
+
+<item itemtype="Connector" uid="connector-267" startpinid="Led-156-rPin" endpinid="Node-171-0" pointList="-132,-540,-20,-540,-20,-532" />
+
+<item itemtype="Connector" uid="connector-268" startpinid="Node-168-2" endpinid="Node-165-1" pointList="-20,-496,-20,-456" />
+
+<item itemtype="Connector" uid="connector-269" startpinid="Led-155-rPin" endpinid="Node-174-0" pointList="-128,-580,-20,-580" />
+
+<item itemtype="Connector" uid="connector-270" startpinid="Node-171-2" endpinid="Node-168-1" pointList="-20,-532,-20,-496" />
+
+<item itemtype="Connector" uid="connector-271" startpinid="Led-154-rPin" endpinid="Node-177-0" pointList="-128,-620,-20,-620" />
+
+<item itemtype="Connector" uid="connector-272" startpinid="Node-174-2" endpinid="Node-171-1" pointList="-20,-580,-20,-532" />
+
+<item itemtype="Connector" uid="connector-273" startpinid="Led-153-rPin" endpinid="Node-180-0" pointList="-128,-660,-20,-660" />
+
+<item itemtype="Connector" uid="connector-274" startpinid="Node-177-2" endpinid="Node-174-1" pointList="-20,-620,-20,-580" />
+
+<item itemtype="Connector" uid="connector-275" startpinid="Led-152-rPin" endpinid="Node-180-1" pointList="-128,-692,-20,-692,-20,-660" />
+
+<item itemtype="Connector" uid="connector-276" startpinid="Node-180-2" endpinid="Node-177-1" pointList="-20,-660,-20,-620" />
+
+<item itemtype="Connector" uid="Connector-355" startpinid="Mega-2-12" endpinid="74HC595-345-DS" pointList="-708,-372,-460,-372,-460,-612,-416,-612" />
+
+<item itemtype="Connector" uid="Connector-356" startpinid="Mega-2-10" endpinid="74HC595-345-STC" pointList="-708,-388,-504,-388,-504,-636,-416,-636" />
+
+<item itemtype="Connector" uid="Connector-357" startpinid="Mega-2-11" endpinid="74HC595-345-SHC" pointList="-708,-380,-484,-380,-484,-644,-416,-644" />
+
+<item itemtype="Connector" uid="Connector-360" startpinid="74HC595-345-!MR" endpinid="Rail-358-outnod" pointList="-416,-588,-416,-788,-456,-788" />
+
+<item itemtype="Connector" uid="Connector-361" startpinid="74HC595-345-!OE" endpinid="Ground-359-Gnd" pointList="-416,-580,-460,-580,-460,-760,-476,-760,-476,-744" />
+
+<item itemtype="Connector" uid="Connector-370" startpinid="Resistor-369-rPin" endpinid="Led-159-lPin" pointList="-192,-428,-168,-428" />
+
+<item itemtype="Connector" uid="Connector-371" startpinid="Resistor-368-rPin" endpinid="Led-158-lPin" pointList="-192,-464,-164,-464" />
+
+<item itemtype="Connector" uid="Connector-372" startpinid="Resistor-367-rPin" endpinid="Led-157-lPin" pointList="-196,-504,-164,-504" />
+
+<item itemtype="Connector" uid="Connector-373" startpinid="Resistor-366-rPin" endpinid="Led-156-lPin" pointList="-196,-540,-164,-540" />
+
+<item itemtype="Connector" uid="Connector-374" startpinid="Resistor-365-rPin" endpinid="Led-155-lPin" pointList="-200,-580,-160,-580" />
+
+<item itemtype="Connector" uid="Connector-375" startpinid="Resistor-364-rPin" endpinid="Led-154-lPin" pointList="-196,-620,-160,-620" />
+
+<item itemtype="Connector" uid="Connector-376" startpinid="Resistor-363-rPin" endpinid="Led-153-lPin" pointList="-200,-660,-160,-660" />
+
+<item itemtype="Connector" uid="Connector-377" startpinid="Resistor-362-rPin" endpinid="Led-152-lPin" pointList="-200,-692,-160,-692" />
+
+<item itemtype="Connector" uid="Connector-378" startpinid="74HC595-345-Q0" endpinid="Resistor-362-lPin" pointList="-368,-636,-340,-636,-340,-692,-232,-692" />
+
+<item itemtype="Connector" uid="Connector-379" startpinid="74HC595-345-Q1" endpinid="Resistor-363-lPin" pointList="-368,-628,-320,-628,-320,-660,-232,-660" />
+
+<item itemtype="Connector" uid="Connector-380" startpinid="74HC595-345-Q2" endpinid="Resistor-364-lPin" pointList="-368,-620,-228,-620" />
+
+<item itemtype="Connector" uid="Connector-381" startpinid="74HC595-345-Q3" endpinid="Resistor-365-lPin" pointList="-368,-612,-248,-612,-248,-580,-232,-580" />
+
+<item itemtype="Connector" uid="Connector-382" startpinid="74HC595-345-Q4" endpinid="Resistor-366-lPin" pointList="-368,-604,-260,-604,-260,-540,-228,-540" />
+
+<item itemtype="Connector" uid="Connector-383" startpinid="Resistor-367-lPin" endpinid="74HC595-345-Q5" pointList="-228,-504,-276,-504,-276,-596,-368,-596" />
+
+<item itemtype="Connector" uid="Connector-384" startpinid="Resistor-368-lPin" endpinid="74HC595-345-Q6" pointList="-224,-464,-284,-464,-284,-588,-368,-588" />
+
+<item itemtype="Connector" uid="Connector-385" startpinid="Resistor-369-lPin" endpinid="74HC595-345-Q7" pointList="-224,-428,-300,-428,-300,-580,-368,-580" />
+
+</circuit>
